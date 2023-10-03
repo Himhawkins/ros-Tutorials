@@ -1,10 +1,10 @@
 
 To Create a blank package:
-'''
+```
 catkin_create_pkg package dependencies # in src folder of catkin_ws/ws
 cd catkin_ws
 catkin_make
-'''
+```
 
 
 For dependencies list: 
