@@ -8,13 +8,13 @@ catkin_make
 
 
 For dependencies list: 
-'''
+```
 rospack depends1 package #for direct dependencies
 rospack depends package # for indirect dependies.
-'''
+```
 
 See sample for typical descriptive XML file format for every package:
-'''
+```
 1 <?xml version="1.0"?>
    2 <package format="2">
    3   <name>beginner_tutorials</name>
@@ -37,4 +37,4 @@ See sample for typical descriptive XML file format for every package:
   20   <exec_depend>std_msgs</exec_depend>
   21 
   22 </package>  
-'''
+```
