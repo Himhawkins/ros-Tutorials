@@ -7,3 +7,11 @@ Basic Descriptions:
   * **Master**: Name service for ROS (i.e. helps nodes find each other)
   * **rosout**: ROS equivalent of stdout/stderr
   * **roscore**: Master + rosout + parameter server (parameter server will be introduced later)
+
+## Rqt Graph
+Run rqt_graph command creates a dynamic graph of what's going on in the system. Run to see a map of the publishers and subscriber
+```
+rosrun rqt_graph rqt_graph
+```
+
+
