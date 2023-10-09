@@ -16,5 +16,6 @@ rosrun rqt_graph rqt_graph
 
 
 ## Rostopic
-rostopic -h is for help
-rostopic echo topicname :   shows the data published on a topic.
+* *rostopic -h* is for help
+* *rostopic echo topicname* :   shows the data published on a topic.
+* *rostopic list*: returns a list of all topics currently subscribed to and published.
