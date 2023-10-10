@@ -23,4 +23,5 @@ rosrun rqt_graph rqt_graph
   * *-v*: verbose with all details
   * rostopic type [topic] to show data type of topic
   * rosmsg show geometry_msgs/Twist to see details of the message type
-  * rostopic pub [topic] [msg_type] [args] 
+  * rostopic pub [topic] [msg_type] [args]
+  * rostopic hz reports the rate at which data is published.
