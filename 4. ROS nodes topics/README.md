@@ -20,4 +20,5 @@ rosrun rqt_graph rqt_graph
 * *rostopic echo topicname* :   shows the data published on a topic.
 * *rostopic list*: returns a list of all topics currently subscribed to and published.
   * *-h*: help
-  * *-v*: verbose with all details  
+  * *-v*: verbose with all details
+  * rostopic type [topic] to show data type of topic
