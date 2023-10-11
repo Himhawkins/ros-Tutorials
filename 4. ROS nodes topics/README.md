@@ -25,3 +25,4 @@ rosrun rqt_graph rqt_graph
   * rosmsg show geometry_msgs/Twist to see details of the message type
   * rostopic pub [topic] [msg_type] [args]
   * rostopic hz reports the rate at which data is published.
+* rosrun rqt_plot rqt_plot : displays a scrolling time plot of the data published on topics. 
