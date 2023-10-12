@@ -13,3 +13,11 @@ rosservice type         print service type
 rosservice find         find services by service type
 rosservice uri          print service ROSRPC uri
 ```
+### ROS RQT 
+
+rqt_console attaches to ROS's logging framework to display output from nodes. rqt_logger_level allows us to change the verbosity level (DEBUG, WARN, INFO, and ERROR) of nodes as they run.
+
+```
+rosrun rqt_console rqt_console
+rosrun rqt_logger_level rqt_logger_level
+```
